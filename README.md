@@ -1,15 +1,15 @@
-# **Starknet Script Bot**
+# **Starknet Helpful Scripts**
 
-- 1. create .env file in the root file
+1. create .env file in the root file
 ```
 STARKNET_PROVIDER_BASE_URL=*****
 PRIVATE_KEY=*****
 ```
-- 2. Install the project dependencies
+2. Install the project dependencies
 ```
 yarn
 ```
-- 3. Run the bot script
+3. Run the script
 ```
-yarn run start:dev
+yarn run transfer-eth //
 ```
