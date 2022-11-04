@@ -15,9 +15,7 @@ import * as dotenv from 'dotenv'
 dotenv.config();
 
 // Provider config 
-const provider = process.env.STARKNET_PROVIDER_BASE_URL === undefined ?
-  defaultProvider :
-  new Provider({
+const provider = new Provider({
     sequencer: {
       baseUrl: process.env.STARKNET_PROVIDER_BASE_URL
     }
@@ -54,7 +52,7 @@ console.log(
 );
 
 // Execute tx transfer 0.01 tokens
-console.log(`Invoke Tx - Transfer tokens back to erc20 contract...`);
+console.log(`Invoke Tx - Transfer eth tokens to recipient address ...`);
 // Get nounce
 const nonce = await getNonce()
 // Config transactions
