@@ -1,7 +1,6 @@
 import {
   Account,
   Contract,
-  defaultProvider,
   ec,
   uint256,
   Provider,
