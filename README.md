@@ -1,4 +1,4 @@
-# **Starknet Helpful Scripts**
+# **Starknet Scripts**
 
 1. create .env file in the root file
 ```
@@ -9,7 +9,7 @@ PRIVATE_KEY=*****
 ```
 yarn
 ```
-3. Run the script
+3. Run the scripts
 ```
-yarn run transfer-eth //
+yarn run start:transfer-eth // run transfer-eth script
 ```
